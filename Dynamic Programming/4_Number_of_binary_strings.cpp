@@ -6,28 +6,19 @@ using namespace std;
 #define ff first
 #define ss second
 #define rep(i, a, b) for (int i = a; i < b; i++)
-
-int gcd(int a, int b)
-{
-    if (a % b == 0)
-        return b;
-    return gcd(b, a % b);
-}
+vi dp;
 
 int main()
 {
     int n;
     cin >> n;
-    int count = 0;
-    for (int i = 1; i < n; i++)
+    dp = vi(n + 1);
+    dp[0] = 0;
+    dp[1] = 1;
+    for (int i = 2; i <= n; i++)
     {
-        if (gcd(n, i) == 1)
-        {
-            count++;
-        }
+        dp[i] = dp[i - 1] + dp[i - 2];
     }
-    cout << count << endl;
+    cout << dp[n] << endl;
     return 0;
 }
-
-// 9 6 ->6 9%6

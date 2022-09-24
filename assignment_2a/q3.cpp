@@ -40,5 +40,6 @@ int main()
     read(b);
     display(sum(a, b));
     display(subtract(a, b));
+
     return 0;
 }
