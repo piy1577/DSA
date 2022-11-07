@@ -1,0 +1,66 @@
+Operators: 
+operators are symbol that tell the compiler to perform some specific operations
+
+Types of Operators:
+1) Arithmetic Operators
+2) Relation Operators
+3) Logical Operators
+4) Bitwise Operators
+5) Assignment Operators
+6) Miscellaneous Operators
+
+
+Arithmetic Operators:
+1) binary operators:- +, -, *, /, %
+2) Unary operators:- ++, --
+
+pre- incrementor/ decrementor: first increase or decrease value then compile 
+Post - incrementor/decrementor: first compile then increase or decrease value;
+
+Relation Operators:
+Returns a boolean value;
+
+1) == :- gives true value if both operands have equal value
+2) != :- gives true value if both operands doesn't have equal values;
+3) > :- gives true value if left operand is greater than right operand;
+4) < :- gives true if left operand is smaller than right operand;
+5) >= :- gives true value if left operand is greater than or equal to right operand;
+6) <= :- gives true value if left operand is smaller than or equal to right operand;
+
+
+Logical Operators:
+used to connect multiple expression/conditions together or to reverse the logical value;
+
+1)&& :- if conditions on both the sides are true then gives the value true;
+2)|| :- if condition of either side is true then the value is true;
+3)! :- gives the opposite value of the operands;
+
+
+Bitwise Operators:
+Operates on bits and perform bit by bit operations
+
+1) & (AND)
+2) | (OR)
+3) ^ (XOR)
+4) ~ (COMPLIMENT)
+5) << (LEFT SHIFT)
+6) >> (RIGHT SHIFT)
+
+
+Assignment Operators:
+
+1) =
+2) +=
+3) -=
+4) *=
+5) /=
+
+
+
+Miscellaneous Operators:
+1) sizeof() :- return the size of variable
+2) Condition?X:Y :- Return value of X if condition is true or else value of Y
+3) cast :- convert one data type to another
+4) Comma(,) :- Causes a sequence of operators to be performed
+5) &:- return the address of the variable
+6) *:- Pointer to the variable

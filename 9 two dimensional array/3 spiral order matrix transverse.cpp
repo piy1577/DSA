@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n, m;
+    cin >> n >> m;
+
+    int arr[n][m];
+
+    int row_start =0;
+    int column_start = 0;
+    int row_end = n-1;
+    int column_end = m-1;
+
+    while(row_start <= row_end && column_start <= column_end){
+        for(int i=column_start; i<=column_end; i++){
+            cin >> arr[row_start][i];
+        }
+        row_start++;
+
+        for(int i=row_start;i<=row_end; i++){
+            cin >> arr[i][column_end];
+        }
+        column_end--;
+
+        for(int i=column_end; i>=column_start; i--){
+            cin >> arr[row_end][i];
+        }
+        row_end --;
+
+        for(int i=row_end; i>=row_start; i--){
+            cin >> arr[i][column_start];
+        }
+
+        column_start ++;
+    }
+
+    cout << endl << endl << endl;
+
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m; j++){
+            if(arr[i][j]>9){
+                cout << arr[i][j]<< " ";
+            }else {
+                cout << arr[i][j]<< "  ";
+            }
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
