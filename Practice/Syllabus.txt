@@ -1,0 +1,36 @@
+1) Conditions
+2) loops
+3) functions
+4) array
+5) pointer
+6) String
+7) Bit manipulation
+8) Sieve of Eranthausis
+9) Recursion
+10) Backtracking
+11) Sorting
+12) OOPS
+13) Linked List
+14) Stack 
+15) Queue
+16) Two pointer
+17) Binary Tree
+18) Binary Search Tree
+19) Searching
+20) Sliding Window
+21) Heap
+22) Hash
+23) Greedy
+24) Graph
+25) Dynamic Programming
+26) Tries
+27) Segment Tree 
+
+
+Algorithms Used
+
+1) Tortoise Method (fast and slow)
+2) DNF Sort
+3) Kedane's Algorithm
+4) Greedy
+5) Partition Algo

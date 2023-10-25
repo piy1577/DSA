@@ -2,6 +2,7 @@
 using namespace std;
 #define n 100
 
+//stack
 class stack {
     int* arr;
     int top;
@@ -57,3 +58,9 @@ int main() {
 
     return 0;
 }
+
+//  0 0 0 0 0
+// *2 0 0 0 0
+//  2 *3 0 0 0
+//  2 3 *5 0 0
+//  2 *3 5 0 0

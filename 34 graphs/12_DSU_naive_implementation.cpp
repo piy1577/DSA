@@ -9,7 +9,7 @@ using namespace std;
 #define vii vector<pii>
 vi parent;
 
-void make(v){
+void make(int v){
     parent[v] = v;
 }
 
